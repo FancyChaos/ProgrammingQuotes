@@ -3,14 +3,13 @@
 """Console script for programmingquotes."""
 import sys
 import click
+import programmingquotes
 
 
 @click.command()
 def main(args=None):
     """Console script for programmingquotes."""
-    click.echo("Replace this message by putting your code into "
-               "programmingquotes.cli.main")
-    click.echo("See click documentation at http://click.pocoo.org/")
+    programmingquotes.write_quote()
     return 0
 
 
