@@ -16,7 +16,7 @@ ProgrammingQuotes
 
 
 
-Output great/funny programming quotes. Best to use with something like fish_greeting
+Outputs great/funny programming quotes. Best to use with something like fish_greeting.
 
 
 * Free software: MIT license
@@ -27,10 +27,15 @@ Installation
 ------------
 Have a look here: https://programmingquotes.readthedocs.io/en/latest/installation.html
 
-Features
---------
 
-** TODO
+How to use
+----------
+Just type in 'programmingquotes' into your shell!
+The best way is to combine this with a greeting message for your shell.
+
+
+TODO
+----
 * Adding more funny quotes!
 * Maybe add color support
 
