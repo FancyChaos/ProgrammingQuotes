@@ -35,6 +35,8 @@ Implement Features
 Look through the GitHub issues for features. Anything tagged with "enhancement"
 and "help wanted" is open to whoever wants to implement it.
 
+Especially adding more quotes would help out a lot!
+
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
