@@ -27,6 +27,7 @@ class TestProgrammingquotes(unittest.TestCase):
         """Test the CLI."""
         runner = CliRunner()
         result = runner.invoke(cli.main)
+        print("Result:", result)
         assert result.exit_code == 0
         assert 'programmingquotes.cli.main' in result.output
         help_result = runner.invoke(cli.main, ['--help'])

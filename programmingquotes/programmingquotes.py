@@ -15,6 +15,7 @@ def write_quote():
     print(to_print["quote"])
     print("-" + to_print["author"])
 
+
 def get_quote():
     json_decode = []
     with open("quotes.json") as json_file:
