@@ -20,19 +20,6 @@ test_requirements = [ ]
 setup(
     author="Felix Scheja",
     author_email='Felix.Scheja@outlook.de',
-    classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
-        'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
-        'Natural Language :: English',
-        "Programming Language :: Python :: 2",
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-    ],
     description="Output great/funny programming quotes. Best to use with something like fish_greeting",
     entry_points={
         'console_scripts': [
