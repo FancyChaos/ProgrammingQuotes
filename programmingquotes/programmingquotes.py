@@ -1,15 +1,22 @@
 # -*- coding: utf-8 -*-
 
 """Main module."""
+import sys
 import json
-import secrets
+try:
+    import secrets
+except ImportError as e:
+    import random
 
 
 def main():
     json_decode = []
     with open("quotes.json") as json_file:
         json_decode = json.load(json_file)
-    to_print = secrets.choice(json_decode)
+    if "secrets" in sys.modules:
+        to_print = secrets.choice(json_decode)
+    elif "random" in sys.modules:
+        to_print = random.choice(json_decode)
     print(to_print["quote"])
     print("-" + to_print["author"])
 
