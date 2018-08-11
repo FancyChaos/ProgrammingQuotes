@@ -3,13 +3,13 @@
 """Console script for programmingquotes."""
 import sys
 import click
-import programmingquotes
+from . import programmingquotes as pq
 
 
 @click.command()
 def main(args=None):
     """Console script for programmingquotes."""
-    programmingquotes.write_quote()
+    pq.write_quote()
     return 0
 
 
