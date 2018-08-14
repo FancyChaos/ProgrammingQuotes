@@ -6,7 +6,7 @@ ProgrammingQuotes
 .. image:: https://img.shields.io/pypi/v/programmingquotes.svg
         :target: https://pypi.python.org/pypi/programmingquotes
 
-.. image:: https://img.shields.io/travis/FancyChaos/programmingquotes.svg
+.. image:: https://img.shields.io/travis/FancyChaos/ProgrammingQuotes.svg
         :target: https://travis-ci.org/FancyChaos/ProgrammingQuotes
 
 .. image:: https://readthedocs.org/projects/programmingquotes/badge/?version=latest

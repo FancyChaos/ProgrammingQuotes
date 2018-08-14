@@ -7,7 +7,7 @@
 import unittest
 from click.testing import CliRunner
 
-from programmingquotes import programmingquotes
+from programmingquotes import pq
 from programmingquotes import cli
 
 

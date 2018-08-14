@@ -3,7 +3,7 @@
 """Console script for programmingquotes."""
 import sys
 import click
-from . import programmingquotes as pq
+from . import pq
 
 
 @click.command()
