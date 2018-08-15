@@ -23,6 +23,15 @@ If you are reporting a bug, please include:
 * Any details about your local setup that might be helpful in troubleshooting.
 * Detailed steps to reproduce the bug.
 
+Add Quotes
+----------
+
+To add quotes is one of the most important contribution.
+Just add your quotes to the quotes.json.
+If you don't know the author of the quote, leave the field empty ("").
+At last but not least specifie the language of your quote.
+If the chosen language is not supportet yet you can add them into the source code yourself or just pm me!
+
 Fix Bugs
 ~~~~~~~~
 
@@ -34,8 +43,6 @@ Implement Features
 
 Look through the GitHub issues for features. Anything tagged with "enhancement"
 and "help wanted" is open to whoever wants to implement it.
-
-Especially adding more quotes would help out a lot!
 
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~

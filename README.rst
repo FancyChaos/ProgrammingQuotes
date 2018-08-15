@@ -39,6 +39,10 @@ TODO
 * Adding more funny quotes!
 * Maybe add color support
 
+Howto Contribute
+----------------
+Just read the Contributing.rst to check out how to help me out!
+
 Credits
 -------
 
