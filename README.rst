@@ -37,7 +37,6 @@ Every arguement is explained in the docs: https://programmingquotes.readthedocs.
 TODO
 ----
 * Adding more funny quotes!
-* Make language a multiple arguement so you can pick many languages when you habe more than 2 to pick
 * Add color support
 * Add option to edit the quotes(underlining, styling stuff in general)
 

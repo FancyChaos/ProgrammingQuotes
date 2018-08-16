@@ -27,10 +27,10 @@ Add Quotes
 ----------
 To add quotes is one of the most important contribution.
 
-Just add your quotes to the quotes.json.
-If you don't know the author of the quote, leave the field empty ("").
-At last but not least specifie the language of your quote.
-If the chosen language is not supported right know, just add your language to the quotes.json under the "langs" field.
+Just add your quotes to the quotes.json.\
+If you don't know the author of the quote, leave the field empty ("").\
+At last but not least specifie the language of your quote.\
+If the chosen language is not supported right know, just add your language to the quotes.json under the "langs" field.\
 The format to add a new language is {language:missing_author}, you will understand by looking at the quotes.json
 
 Fix Bugs
