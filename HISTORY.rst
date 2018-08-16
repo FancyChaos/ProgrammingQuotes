@@ -16,3 +16,9 @@ History
 ------------------
 * Changed some names
 * Removed python2 support
+
+2.0.0 (2018-08-16)
+------------------
+* Added mor quotes
+* Added language support
+* Added option to display the number of arguements
