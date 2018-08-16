@@ -32,5 +32,7 @@ class TestProgrammingquotes(unittest.TestCase):
         assert result.exit_code == 0
         result = runner.invoke(cli.main, ["--language", "en"])
         assert result.exit_code == 0
+        result = runner.invoke(cli.main, ["--language", "bullshit"])
+        assert result.exit_code == 0
         help_result = runner.invoke(cli.main, ['--help'])
         assert help_result.exit_code == 0

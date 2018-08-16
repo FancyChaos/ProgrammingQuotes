@@ -30,18 +30,22 @@ Have a look here: https://programmingquotes.readthedocs.io/en/latest/installatio
 
 How to use
 ----------
-Just type in 'programmingquotes' into your shell!
-The best way is to combine this with a greeting message for your shell.
+
+Every arguement is explained in the docs: https://programmingquotes.readthedocs.io/en/latest/usage.html
 
 
 TODO
 ----
 * Adding more funny quotes!
-* Maybe add color support
+* Make language a multiple arguement so you can pick many languages when you habe more than 2 to pick
+* Add color support
+* Add option to edit the quotes(underlining, styling stuff in general)
+
 
 Howto Contribute
 ----------------
-Just read the Contributing.rst to check out how to help me out!
+Just read the CONTRIBUTING.rst to check out how to help me out!
+
 
 Credits
 -------

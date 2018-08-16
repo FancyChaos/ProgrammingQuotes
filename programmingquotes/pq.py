@@ -10,18 +10,9 @@ except ImportError as e:
     import random
 
 
-def write_quote(lang):
-    # Get path of quotes.json
-    path = os.path.abspath(os.path.dirname(__file__))
-    json_path = os.path.join(path, "quotes.json")
-
-    # Open quotes.json
-    json_decode = []
-    with open(json_path) as json_file:
-        json_decode = json.load(json_file)
-
+def write_quote(language, json_decode):
     # Sort quotes by language
-    sorted_quotes = [x for x in json_decode if x["lang"].lower() == lang.lower() or lang == "both"]
+    sorted_quotes = [x for x in json_decode["quotes"] if x["lang"].lower() in language or "both" in language]
 
     # Get quote with imported module
     if "secrets" in sys.modules:
@@ -31,7 +22,10 @@ def write_quote(lang):
 
     # If not author is specified, the author will be chosen correspondingly to the language
     if not to_print["author"]:
-        author = "Unbekannt" if lang.lower() == "de" else "Unknown"
+        if len(language) == 1 or (len(language) > 1 and "en" not in language):
+            author = json_decode["langs"][language[0].upper()]
+        else:
+            author = "Unknown"
     else:
         author = to_print["author"]
 
